@@ -17,8 +17,7 @@ public class UserModel {
     public UserModel() {
     }
 
-    public UserModel(Long id, String username, String password, UserRole role) {
-        this.id = id;
+    public UserModel(String username, String password, UserRole role) {
         this.username = username;
         this.password = password;
         this.role = role;
